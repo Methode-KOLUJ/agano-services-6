@@ -303,9 +303,41 @@ export default function SoumissionForm() {
                                                         required
                                                     >
                                                         <option value="" disabled>Sélectionnez votre ville</option>
-                                                        <option value="Kinshasa">Kinshasa</option>
-                                                        <option value="Lubumbashi">Lubumbashi</option>
-                                                        <option value="Kolwezi">Kolwezi</option>
+                                                        <option value="bandundu">Bandundu</option>
+                                                        <option value="baraka">Baraka</option>
+                                                        <option value="beni">Beni</option>
+                                                        <option value="boende">Boende</option>
+                                                        <option value="boma">Boma</option>
+                                                        <option value="bukavu">Bukavu</option>
+                                                        <option value="bunia">Bunia</option>
+                                                        <option value="buta">Buta</option>
+                                                        <option value="butembo">Butembo</option>
+                                                        <option value="gbadolite">Gbadolite</option>
+                                                        <option value="gemena">Gemena</option>
+                                                        <option value="goma">Goma</option>
+                                                        <option value="inongo">Inongo</option>
+                                                        <option value="isiro">Isiro</option>
+                                                        <option value="kabinda">Kabinda</option>
+                                                        <option value="kalemie">Kalemie</option>
+                                                        <option value="kamina">Kamina</option>
+                                                        <option value="kananga">Kananga</option>
+                                                        <option value="kenge">Kenge</option>
+                                                        <option value="kikwit">Kikwit</option>
+                                                        <option value="kindu">Kindu</option>
+                                                        <option value="kisangani">Kisangani</option>
+                                                        <option value="kinshasa">Kinshasa</option>
+                                                        <option value="kolwezi">Kolwezi</option>
+                                                        <option value="likasi">Likasi</option>
+                                                        <option value="lisala">Lisala</option>
+                                                        <option value="lubumbashi">Lubumbashi</option>
+                                                        <option value="lusambo">Lusambo</option>
+                                                        <option value="matadi">Matadi</option>
+                                                        <option value="mbandaka">Mbandaka</option>
+                                                        <option value="mbujimayi">Mbujimayi</option>
+                                                        <option value="mwene-ditu">Mwene-Ditu</option>
+                                                        <option value="tshikapa">Tshikapa</option>
+                                                        <option value="uvira">Uvira</option>
+                                                        <option value="zongo">Zongo</option>
                                                     </select>
                                                     <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500">
                                                         <ChevronRight className="rotate-90" size={16} />
