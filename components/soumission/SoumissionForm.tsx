@@ -75,7 +75,7 @@ export default function SoumissionForm() {
     const wordCount = formData.projectInfo.summary.trim().split(/\s+/).filter(Boolean).length;
 
     const handleOpenPaymentModal = (e: React.FormEvent) => {
-        console.log(formData)
+        
         e.preventDefault();
         setPaymentPhone(''); // Open empty
         setShowPaymentModal(true);
@@ -848,3 +848,4 @@ export default function SoumissionForm() {
         </>
     );
 }
+
