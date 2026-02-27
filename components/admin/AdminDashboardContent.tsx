@@ -440,14 +440,15 @@ export default function AdminDashboardContent() {
                                                         >
                                                             {isUpdating === candidature._id ? '...' : 'NON'}
                                                         </button>
-                                                        <button
+                                                       {/* <button
                                                             onClick={(e) => handleDelete(candidature._id, e)}
                                                             className="p-1 rounded-lg text-gray-400 hover:text-red-500 hover:bg-red-50 transition-colors ml-2"
                                                             title="Supprimer"
                                                             disabled={isUpdating === candidature._id}
                                                         >
                                                             <Trash2 size={18} />
-                                                        </button>
+                                                        </button> */}
+    
 
                                                     </div>
                                                 </td>
@@ -487,3 +488,4 @@ export default function AdminDashboardContent() {
         </div>
     );
 }
+
