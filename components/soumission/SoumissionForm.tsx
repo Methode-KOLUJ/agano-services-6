@@ -75,6 +75,7 @@ export default function SoumissionForm() {
     const wordCount = formData.projectInfo.summary.trim().split(/\s+/).filter(Boolean).length;
 
     const handleOpenPaymentModal = (e: React.FormEvent) => {
+        console.log(formData)
         e.preventDefault();
         setPaymentPhone(''); // Open empty
         setShowPaymentModal(true);
@@ -239,7 +240,7 @@ export default function SoumissionForm() {
                         </span>
                     </h1>
                     <p className="text-lg text-gray-700">
-                        La première édition de RDC Business Booster finance uniquement les candidats dont les projets concernent l'agriculture. Candidature ouverte du <span className='text-blue-700 font-light'>15.Février.2026</span>  au <span className='text-blue-700 font-light'>30.Avril.2026</span>
+                        La première édition de RDC Business Booster vise uniquement les candidats dont les projets concernent l'agriculture. Candidature ouverte du <span className='text-blue-700 font-light'>15.Février.2026</span>  au <span className='text-blue-700 font-light'>30.Avril.2026</span>
                     </p>
                     <p className="text-md italic text-gray-500 py-6">
                         Pour toutes vos questions, appelez le service client en cliquant <Link href="tel:+243801776888" className="text-[rgb(210,69,38)] font-bold">ici</Link> ou écrivez sur whatsapp en appuyant <Link href="https://wa.me/243801776888" className="text-[rgb(210,69,38)] font-bold">ici</Link>.
